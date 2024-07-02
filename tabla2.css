@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML</title>
+        <meta charset="UTF-8"/>
+        <style>
+            table{
+               width: 80;
+               border-collapse; collapse;
+               margin:  20px auto; 
+            }
+            th, td{
+                border: 1px solidblack;
+                padding: 8px;
+                text-align: center;
+            }
+            th{
+                background-color:#f2f2f2;
+            }
+            .header{
+                font-weight: bold;
+                background-color: #d9d9d9;
+            }
+                background-color: #f2f2f2
+            
+        </style>
+    </head>
+    <body>
+        <h2>Horario de Grupo</h2>
+        <br>
+        <h3>Periodo 2024/2</h3>
+        <br>
+        <h4>LICENCIATURA EN INGENIERIA EN SISTEMAS COMPUTACIONALES</h4>
+        <br>
+        <h5>GRUPO: ELISC901</h5>
+        <br>
+        <h6>CUATRIMESTRE: 7°</h6>
+    <table>
+        <tr>
+            <th>HORA</th>
+            <th>SABADO</th>
+        </tr>
+        <tr>
+            <td>08:00 - 09:30</td>
+            <td class="blue">DESARROLLADOR DE APLICACIONES WEB</td>
+        </tr>
+        <tr>
+            <td>09:30 - 11:00</td>  
+            <td class="blue">GESTION DE PROYECTOS INFORMATICOS</td>
+        </tr>
+        <tr>
+            <td>11:00 - 12:00</td>  
+            <td>DESCANSO</td>
+        </tr>
+        <tr>
+            <td>12:00 - 13:30</td>  
+            <td class="blue">LEGISLACION INFORMATICA</td>
+        </tr>
+        <tr>
+            <td>13:30 - 15:00</td>
+            <td class="green">DESARROLLO DE APLICACIONES MOVILES</td>
+        </tr>
+        <tr>
+            <td>17:00 - 19:00</td>
+            <td class="purple">INTELIGENCIA DE NEGOCIOS</td>
+        </tr>
+    </table>
+</body>
+</html>
